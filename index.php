@@ -1,6 +1,6 @@
 <?php
 	/**
-	 * Plugin Name:       Coronavirus Map
+	 * Plugin Name:       WP Covid Data
 	 * Plugin URI:        https://www.breathemongolia.org/
 	 * Description:       Extends Breathe Mongolia's air quality map to include Coronavirus data
 	 * Version:           1.0.0
@@ -8,10 +8,10 @@
 	 * Author URI:        https://breathemongolia.org/
 	 */
 
-   /*
+   
    if ( ! defined('WPINC') ) {
      die;
-   }*/
+   }
 
    $relative_path = __DIR__ . '/assets';
 
