@@ -15,6 +15,11 @@
 
     $json_output =  $assets_path . '/model/daily_reports/';
 
+    //check if directory exists. If not, make one
+    if ( ! is_dir($json_output) ) {
+      mkdir($json_output);
+    }
+
     //path to all of the daily reports
     $covid_daily_reports = $assets_path . '/model/master/csse_covid_19_data/csse_covid_19_daily_reports/';
 

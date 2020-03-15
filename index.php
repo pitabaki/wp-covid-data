@@ -8,10 +8,10 @@
 	 * Author URI:        https://breathemongolia.org/
 	 */
 
-   
+   /*
    if ( ! defined('WPINC') ) {
      die;
-   }
+   }*/
 
    $relative_path = __DIR__ . '/assets';
 
@@ -23,6 +23,6 @@
    //pull or clone request
    git_pull_request($git_repository, $relative_path);
 
-   add_action('git_pull_request_hook', 'git_pull_request');
+   //add_action('git_pull_request_hook', 'git_pull_request');
   
 ?>

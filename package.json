@@ -1,0 +1,27 @@
+{
+  "name": "wp-covid-data",
+  "version": "1.0.0",
+  "description": "Plugin and testing environment for COVID-19 data",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BreatheMongolia/wp-covid-data.git"
+  },
+  "author": "Peter Berki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BreatheMongolia/wp-covid-data/issues"
+  },
+  "homepage": "https://github.com/BreatheMongolia/wp-covid-data#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "pug": "^2.0.4"
+  }
+}
