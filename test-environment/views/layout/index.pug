@@ -1,7 +1,30 @@
 doctype html
 head
   title #{title} | #{page}
+  style.
+    .country {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: .5px;
+    stroke-linejoin: round;
+    }
+    .graticule {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .3;
+    stroke-width: .5px;
+    }
+    .graticule.outline {
+    stroke: #333;
+    stroke-opacity: 1;
+    stroke-width: 1.5px;
+    }
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous')
   link(rel='stylesheet' href='/stylesheets/main.css')
   meta(name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+  link(rel='stylesheet' href='https://use.typekit.net/owe2frw.css')
+include includes/nav
+include includes/header
 block content
 include includes/scripts
+include includes/d3script
